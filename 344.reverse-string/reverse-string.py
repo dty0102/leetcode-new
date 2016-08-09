@@ -14,3 +14,4 @@ class Solution(object):
 
 1. list(str): convert string to a list of char
 2. ''.join(lists): join the char together with '', will actually convert it back to string
+3. len(s): get the length of a string
