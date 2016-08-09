@@ -23,8 +23,6 @@ public class Solution {
             }
         }
         return new String(array);
-        
-        
     }
     
     public boolean checkvowels(Character c){
@@ -34,3 +32,5 @@ public class Solution {
         return false;
     }
 }
+1. s.toCharArray(): convert string to character array
+2. array.length, s.length()
