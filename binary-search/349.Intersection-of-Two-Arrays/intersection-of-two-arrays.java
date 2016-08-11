@@ -1,4 +1,5 @@
 1. hashset: build a hashset using the int in first array, then build another hashset to add those intersection integer(using hashset avoids adding duplicates)
+   https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1 == null || nums2 == null){
