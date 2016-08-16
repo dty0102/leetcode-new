@@ -25,9 +25,9 @@ public class Solution {
     }
 }
 2. sort + binary search : sort the first array and do binary search for every element in second array
-! can set int to null, because it's primitive type
-In this case, object is just a pointer to an Integer object whose value happens to be 3. That is, at the memory position where the variable object is stored, all you have is a reference to where the data really is. The memory position where number is stored, on the other hand, contains the value 3 directly.
-So, you could set the object to null, but that would just mean that the data of that object is in null (that is, not assigned). You cannot set an int to null, because the language would interpret that as being the value 0.
+#can't set int to null, because it's primitive type
+#In this case, object is just a pointer to an Integer object whose value happens to be 3. That is, at the memory position where the variable object is stored, all you have is a reference to where the data really is. The memory position where number is stored, on the other hand, contains the value 3 directly.
+#So, you could set the object to null, but that would just mean that the data of that object is in null (that is, not assigned). You cannot set an int to null, because the language would interpret that as being the value 0.
 
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
